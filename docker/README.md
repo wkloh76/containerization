@@ -38,3 +38,41 @@
    Vast library of pre-built images on Docker Hub.
    Strong documentation, tutorials, and third-party tooling.
 
+## Docker Execution With CLI
+
+- <span style="font-weight: bold">docker images</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Check all images
+
+- <span style="font-weight: bold">docker ps -a </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Check all containers status
+
+- <span style="font-weight: bold">docker pull [images]</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Pull a images from dockerhub
+
+- <span style="font-weight: bold">docker volume ls</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Listing all containers internal storage
+
+- <span style="font-weight: bold">docker volume rm [volume]</span>&nbsp;&nbsp;# Delete the storage by name
+
+- <span style="font-weight: bold">docker run [parameters]</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Establish container and whole the entire terminal
+
+- <span style="font-weight: bold">docker run [parameters] -d</span>&nbsp;&nbsp;# Establish container and run to background
+
+- <span style="font-weight: bold">docker [contianer] start </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Start the container by name or ID
+
+- <span style="font-weight: bold">docker [container] stop</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Stop the container by name or ID
+
+- <span style="font-weight: bold">docker stats [container]</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Show the docker containers resource usage
+
+## Docker Execution With Docker Compose
+
+- <span style="font-weight: bold">docker compose -f [yaml file] up -d </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Create containers base on file setting and run to background
+
+- <span style="font-weight: bold">docker compose -f [yaml file] down</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Destroy containers base on file setting
+
+- <span style="font-weight: bold">docker compose -f [yaml file] start</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Start containers base on file setting
+
+- <span style="font-weight: bold">docker compose -f [yaml file] stop</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Stop containers base on file setting
+
+- <span style="font-weight: bold">docker compose -f [yaml file] ps</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Listing containers status base on file setting
+
+# Reference
+
+- [Docker cli](https://docs.docker.com/reference/cli/docker/)
+- [Docker Compose](https://docs.docker.com/reference/compose-file/)

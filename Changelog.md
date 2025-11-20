@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First commit and share n8n docker setup. Completed on 2025-11-19
 - Add `Changelog.md`.and `README.md` Completed on 2025-11-19
+- Add summary of commonly used commands in Docker CLI and Docker Compose. Completed on 2025-11-20
 
 ### Changed
 
