@@ -23,5 +23,5 @@ This n8n setup for http which work with postgres database and worker.This setup 
 
 - To reset the admin password for an n8n instance running in Docker
   ```
-  docker exec-it <container id/name> n8n user-management:reset
+  docker exec -it <container id/name> n8n user-management:reset
   ```
